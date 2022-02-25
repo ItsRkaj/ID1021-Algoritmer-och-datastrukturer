@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Tester: Os\'e4ker p\'e5 exakt vad ni menar men har implementerat inmatning fr\'e5n anv\'e4ndaren p\'e5 alla uppgifter samt vissa instruktioner om anv\'e4ndaren f\'e5r val p\'e5 vad de vill g\'f6ra. Kan visa detta p\'e5 redovisningstillf\'e4llet eller om ni ber mig visa. Gjort massa tester sj\'e4lv via min implementation och testk\'f6rt att programmet fungerar som \'f6nskat.\
+\
+Val av algoritm p 1.2.\
+Valde stack pga den \'e4r extremt smidig d\'e5 f\'f6r att skriva ut en char array bakl\'e4nges. Det \'e4nda man beh\'f6vde g\'f6ra \'e4r att pusha in elementen fr\'e5n 0 -> n i stacken s\'e5 n\'e4r man .pop:ar ut dom s\'e5 poppas dom \'f6versta elementet f\'f6rst ned till alla element \'e4r popade. Allts\'e5 n->0 vilket \'e4r det vi vill. Det \'e4r bara att se till att man skriver ut det ropade items s\'e5 kommer en inmatad st\'e4ng att skrivas ut bakl\'e4nges. Kan f\'f6rklara mer utf\'f6rligt vid redovisningstillf\'e4llet om det beh\'f6vs.\
+\
+Komplexiteten:\
+Se headern I Lab1.7\
+Men \
+R\'e4knade allt I worst case.\
+Enligt min algoritm kommer tidskomplexiteten vara som v\'e4rst O(n) f\'f6r att i v\'e4rsta fall m\'e5ste programmet g\'e5 igenom hela char arraken som best\'e5r av n element. Bokstavligen en \'e4nda for loop som g\'e5r fr\'e5n 0 -> array.lenght.\
+\
+Minneskomplexiteten kommer ocks\'e5 vara O(n) d\'e5 i v\'e4rsta fall m\'e5ste alla element att pushas in i stacken. En snygg l\'f6sning till det problemet vore vara att g\'f6ra en probe som kollar hur m\'e5nga element som kr\'e4vs f\'f6r att vara balanserad och hur m\'e5nga som finns kvar etc. Har inte hunnit implementera detta s\'e5 min har O(n).\
+Detta uppn\'e5s t.ex. vid en inmatning som \'e4r ((((((((((((((((((((((((. D\'e5 g\'e5r loopen igenom allt och alla element l\'e4ge in i stacken innan programmet s\'e4ger att parenteserna inte \'e4r utbalanserat.}
